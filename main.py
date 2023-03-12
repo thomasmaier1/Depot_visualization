@@ -21,7 +21,7 @@ if decision == "N" or decision == "n":
     path = input() + "/"
 else:
     if decision == "Y" or decision == "y":
-        path = "C:/Users/Thomas/Meine Ablage/Privat/Flatex/"
+        path = "C:/Users/Flatex/"
     else:
         print("Invalid answer. Abort program.")
         sys.exit()
