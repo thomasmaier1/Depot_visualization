@@ -20,7 +20,7 @@ if decision == "N" or decision == "n":
     path = input() + "/"
 else:
     if decision == "Y" or decision == "y":
-        path = "C:/Users/Thomas/Meine Ablage/Privat/Flatex/"
+        path = "C:/Users/Depot/"
         isdir = os.path.isdir(path)
         if isdir is False:
             # If the user input is no path, abort
